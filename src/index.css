@@ -1,0 +1,21 @@
+body {
+    background-image: url("./assets/cyberpunk.jpg");
+    color : white;
+    font-family: monospace;
+    font-size: 6em;
+    font-weight: bold;
+
+}
+
+.entire-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.clock-container {
+    backdrop-filter: blur(5px);
+    text-align: center;
+    padding: 10px 0;
+}
